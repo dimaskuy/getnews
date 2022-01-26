@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>GetNews - Get the latest news from various sources!</title>
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg shadow-sm">
+      <div class="container-sm">
+        <a class="navbar-brand font-weight-bold" href="index.html">GetNews</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="menu-toggler">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+
+        <div class="collapse navbar-collapse no-transition" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item nav-ul">
+              <a class="nav-link" href="#">About <i class="bi bi-info-circle-fill"></i></a>
+            </li>
+          </ul>
+          <li class="nav-item dropdown zindex" style="list-style:none">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Search news from country <i class="ml-1 bi bi-flag-fill"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="us/index.html">USA</a>
+              <a class="dropdown-item" href="id/index.html">Indonesia</a>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Introducing -->
+    <div class="container intro-box">
+      <div class="row">
+        <div class="col-md-7 main-title" data-aos="fade-right">
+          <h2 class="font-weight-bold mb-4 border-left">Get the <span class="underlined">latest news</span> from various sources! <i class="ml-1 bi bi-newspaper"></i></h2>
+          <p class="detail-text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p class="desc-text font-weight-bold mt-2">Available in countries:</p>
+          <a href="us/index.html" class="btn btn-country mr-2">United States</a>
+          <a href="id/index.html" class="btn btn-country">Indonesia</a>
+        </div>
+        <div class="col-md-5 main-ilustration" data-aos="fade-left" data-aos-delay="300">
+          <img src="img/news-ilust.svg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- What's The Latest News? -->
+    <div class="container news-carousel">
+      <div class="row text-center">
+        <div class="col-md-12 main-title" data-aos="fade-up">
+          <h2 class="font-weight-bold mb-4">What's the latest news around <span class="underlined">the world</span>?</h2>
+          <p class="detail-text mb-4">Check the latest and updated news from various sources in the world, just only one app!</p>
+
+        <!-- <div id="newsCarousel" class="carousel slide mt-2 mx-auto" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#newsCarousel" data-slide-to="1"></li>
+            <li data-target="#newsCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://img.beritasatu.com/cache/beritasatu/620x350-2/1604731354.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/159E1/production/_117854588_gettyimages-1227661282.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="https://img.okezone.com/content/2021/07/26/43/2445853/sapu-bersih-kemenangan-di-laga-pembuka-olimpiade-tokyo-2020-tim-bulu-tangkis-indonesia-ukir-sejarah-zgxLdC2k08.jpg" class="d-block w-100" alt="">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div> -->
+
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="https://img.okezone.com/content/2021/07/26/43/2445853/sapu-bersih-kemenangan-di-laga-pembuka-olimpiade-tokyo-2020-tim-bulu-tangkis-indonesia-ukir-sejarah-zgxLdC2k08.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/159E1/production/_117854588_gettyimages-1227661282.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://img.beritasatu.com/cache/beritasatu/620x350-2/1604731354.jpg" class="d-block w-100" alt="">
+            </div>
+            <!-- ... -->
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev text-black"></div>
+          <div class="swiper-button-next text-black"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- All In One -->
+    <div class="container all-in-one">
+      <div class="row text-center">
+        <div class="col-md-12 main-title" data-aos="zoom-in">
+          <h2 class="font-weight-bold mb-4">All in <span class="underlined">one</span> platform.</h2>
+          <p class="detail-text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="row platform-icons text-center mt-2">
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/800px-CNN.svg.png" alt="CNN">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/NewYorkTimes.svg/185px-NewYorkTimes.svg.png" alt="NewYorkTimes">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/BBC.svg/800px-BBC.svg.png" alt="BBC">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://seekvectorlogo.net/wp-content/uploads/2018/12/daily-mail-vector-logo.png" alt="Daily Mail">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Wired_logo.svg/125px-Wired_logo.svg.png" alt="Wired">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_News_icon.svg/512px-Google_News_icon.svg.png" alt="Google News">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Public_Radio_logo.svg/512px-National_Public_Radio_logo.svg.png" alt="NPR">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/USA_Today_2012logo.svg/492px-USA_Today_2012logo.svg.png" alt="USA Today">
+        </div>
+        <div class="col-4 my-2 img-icon" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Cnet-logo-red-2020.svg/512px-Cnet-logo-red-2020.svg.png" alt="CNET">
+        </div>
+
+        <h4 class="and-more mt-3 p-2 mx-auto" data-aos="zoom-in" data-aos-delay="200">and more...</h4>
+      </div>
+
+    </div>
+
+    <!-- Get Started -->
+    <div class="container-fluid get-started pt-4 pb-2" data-aos="fade-up" data-aos-duration="800">
+      <div class="row text-center">
+        <div class="col-md-12 main-title">
+          <h2 class="font-weight-bold mb-3">Open the <span class="underlined">GetNews</span> app now</h2>
+          <p class="detail-text mb-4 p-2">Get started now for free. Please pick your region first:</p>
+            <a href="us/index.html" class="btn btn-country mr-2 mb-2">United States <img src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png" alt="" class="ml-1"></a>
+            <a href="id/index.html" class="btn btn-country">Indonesia <img src="https://www.countryflags.com/wp-content/uploads/indonesia-flag-png-large.png" alt="" class="ml-1"> </a>
+        </div>
+      </div>
+
+      <footer class="mt-5">
+          <div class="row text-center">
+            <div class="col-12">
+              <p>Created with <i class="bi bi-heart-fill"></i> by DimasRS.</p>
+            </div>
+          </div>
+      </footer>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+      <script>
+        // AOS
+        AOS.init({
+          duration: 600,
+          once: true
+        });
+
+        // SwiperJS
+        const swiper = new Swiper('.swiper', {
+          // Optional parameters
+          direction: 'horizontal',
+          loop: true,
+          autoplay: {
+            delay: 5000,
+          },
+
+          // effect: 'cards',
+          // cardsEffect: {
+          //   slideShadows: true,
+          // },
+
+          // keyboard: {
+          //   enabled: true,
+          //   onlyInViewport: false,
+          // },
+
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+            // type: 'bullets',
+            clickable: true,
+          },
+
+          // Navigation arrows
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+
+          // And if we need scrollbar
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        });
+
+      </script>
+
+    <!-- MyScript -->
+    <!-- <script src="script.js" charset="utf-8"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
