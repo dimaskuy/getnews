@@ -92,8 +92,10 @@ const searching_for = document.querySelector(".searching_for > span");
 searchNews.forEach((input) => {
   input.addEventListener("input", function () {
     searching_for.textContent = input.value + "...";
+    document.title = "Searching for " + input.value + " news";
     if (input.value === "") {
       document.querySelector(".search-news-box").classList.add("none");
+      document.title = "GetNewsUS - Get the latest news from US!";
       newsSearchContainer.innerHTML = "";
     }
   });
@@ -177,8 +179,9 @@ window.addEventListener("scroll", function functionName() {
 function checkingIsDark(isDark) {
   if (isDark) {
     docHtml.dataset.theme = "dark";
-    this.innerHTML = 'Mode Cerah <i class="ml-1 bi bi-sun-fill"></i>';
+    changeThemeBtn.forEach((btn) => (btn.innerHTML = 'Light Mode <i class="ml-1 bi bi-sun-fill"></i>'));
   } else {
+    changeThemeBtn.forEach((btn) => (btn.innerHTML = 'Night Mode <i class="ml-1 bi bi-moon-stars-fill"></i>'));
     return;
   }
 }
@@ -196,11 +199,11 @@ changeThemeBtn.forEach((btn) => {
     if (docHtml.dataset.theme === "dark" && isDark) {
       localStorage.setItem("isDark", false);
       docHtml.dataset.theme = "light";
-      this.innerHTML = 'Mode Malam <i class="ml-1 bi bi-moon-stars-fill"></i>';
+      this.innerHTML = 'Night Mode <i class="ml-1 bi bi-moon-stars-fill"></i>';
     } else {
       localStorage.setItem("isDark", true);
       docHtml.dataset.theme = "dark";
-      this.innerHTML = 'Mode Cerah <i class="ml-1 bi bi-sun-fill"></i>';
+      this.innerHTML = 'Light Mode <i class="ml-1 bi bi-sun-fill"></i>';
     }
 
     // changeThemeBtn.forEach(btnTheme => {

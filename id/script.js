@@ -73,8 +73,10 @@ const searching_for = document.querySelector(".searching_for > span");
 searchNews.forEach((input) => {
   input.addEventListener("input", function () {
     searching_for.textContent = input.value + "...";
+    document.title = "Mencari berita " + input.value;
     if (input.value === "") {
       document.querySelector(".search-news-box").classList.add("none");
+      document.title = "GetNewsID - Dapatkan Berita Terbaru dari Berbagai Sumber!";
       newsSearchContainer.innerHTML = "";
     }
   });
@@ -158,8 +160,9 @@ window.addEventListener("scroll", function functionName() {
 function checkingIsDark(isDark) {
   if (isDark) {
     docHtml.dataset.theme = "dark";
-    this.innerHTML = 'Mode Cerah <i class="ml-1 bi bi-sun-fill"></i>';
+    changeThemeBtn.forEach((btn) => (btn.innerHTML = 'Mode Cerah <i class="ml-1 bi bi-sun-fill"></i>'));
   } else {
+    changeThemeBtn.forEach((btn) => (btn.innerHTML = 'Mode Malam <i class="ml-1 bi bi-moon-stars-fill"></i>'));
     return;
   }
 }
