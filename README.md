@@ -17,5 +17,6 @@ Created using:<ul>
 My account on this NewsAPI is still "Free". So, to upload this website on the Internet, I must have a paid account to access more NewsAPI's features.
 To access & run this website, you must clone this repository. And run the "index.html" file to your localhost or web server.
 
-<code>git clone "https://github.com/dimaskuy/getnews.git"</code>
-
+```
+git clone "https://github.com/dimaskuy/getnews.git"
+```
