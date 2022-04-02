@@ -1,7 +1,7 @@
 # getnews
 Find a news from trusted sources!
 
-<img src="C:\Users\dimas\Desktop\getnews.png" alt="GetNews Screenshot" />
+![GetNews Screenshot][(https://dsm01pap006files.storage.live.com/y4mG34W0Qo7se-9cozLPAMt1II7Z1j-72IJkjMjyEQ53vby78rW_PcALRim2W8rjnfjqXFJcVB2GLzMBHaFqAN35ViVeqgInZT-dZd3WqE30xPhsGsfe4ObQan-fK6agYFse58gnR6t-krsPbd-OxhdkGqMXWNd2vqYh1oO1pOsbgu4mp8iAg9pJAU1d3ObcS8b?width=1918&height=1083&cropmode=none)
 
 The news available at: USA & Indonesia only.
 
