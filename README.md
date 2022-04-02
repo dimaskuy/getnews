@@ -1,7 +1,7 @@
 # getnews
 Find a news from trusted sources!
 
-![GetNews Screenshot][(https://onedrive.live.com/?v=photos&cid=D629D526E431D7AF&id=D629D526E431D7AF%214227&parId=root&parQt=allmyphotos&o=OneUp)
+![GetNews Screenshot](https://dsm01pap006files.storage.live.com/y4m-mxWs3-N8XC-k-2L9P3T3KXOUZdaRExdB7bjkJCXqjeqfXUROxkgEnHokMJoyIolCzBu7O3fVS4LzJo7zSovE3KwO0BZLypjIcHteLnA9Cv51zsXBshF_zJx5CBIiGgk67mJZSMk-uPUxmbo5ZwjrBnUA-wh8HYcSsxMSqIB75gEajJ69eNofMTZY2bfYq2VQCh2_vWevDWE7e6c4KDO6LqSfNL8QZtMhMxA5zb-hKc?width=1244&height=702&cropmode=center)
 
 The news available at: USA & Indonesia only.
 
