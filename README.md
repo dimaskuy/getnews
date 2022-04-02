@@ -1,6 +1,8 @@
 # getnews
 Find a news from trusted sources!
 
+<img src="C:\Users\dimas\Desktop\getnews.png" alt="GetNews Screenshot" />
+
 The news available at: USA & Indonesia only.
 
 Created using:<ul>
